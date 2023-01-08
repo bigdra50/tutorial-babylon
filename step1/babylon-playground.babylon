@@ -1,0 +1,6 @@
+class Playground{
+  public static CreateScene(engine: BABYLON.Engine, canvas: HTMLCanvasElement): BABYLON.Scene {
+    var scene = new BABYLON.Scene(engine);
+    return scene;
+  }
+}
